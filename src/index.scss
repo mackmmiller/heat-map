@@ -1,0 +1,97 @@
+$primary: #c7b08b;
+$secondary: #f35261;
+$detail1: #b9898f;
+$detail2: #26c0b0;
+$detail3: #26C0B0;
+$cool5: #534698;
+$cool4: #2C7DB5;
+$cool3: #5BBA9B;
+$cool2: #A1D89A;
+$cool1: #E3F38D;
+$neutral: #FFFFB7;
+$warm1: #FEDB80;
+$warm2: #FDA457;
+$warm3: #F3613B;
+$warm4: #CF3646;
+$warm5: #94003A;
+
+html,body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	background-color: $detail1;
+}
+
+header,footer {
+	background-color: $primary;
+}
+
+header {
+	padding: 1em;
+}
+
+div.tooltip {
+	position: absolute;
+	border: 3px solid $detail2;
+	border-radius: 5px;
+	background: $detail3;
+	pointer-events: none;
+	padding: 0.25em;
+	text-align: center;
+}
+
+svg {
+	display: block;
+	margin: 10px auto;
+	.title {
+		font-size: 24px;
+		text-decoration: underline;
+	}
+	.subtitle {
+		font-size: 20px;
+	}
+	.cool5 {
+		fill: $cool5;
+	}
+	.cool4 {
+		fill: $cool4;
+	}
+	.cool3 {
+		fill: $cool3;
+	}
+	.cool2 {
+		fill: $cool2;
+	}
+	.cool1 {
+		fill: $cool1;
+	}
+	.neutral {
+		fill: $neutral;
+	}
+	.warm1 {
+		fill: $warm1;
+	}
+	.warm2 {
+		fill: $warm2;
+	}
+	.warm3 {
+		fill: $warm3;
+	}
+	.warm4 {
+		fill: $warm4;
+	}
+	.warm5 {
+		fill: $warm5;
+	}
+}
+
+footer {
+	padding: 0.25em;
+	text-align: center;
+	color: white;
+	a {
+		color: white;
+	}
+}
